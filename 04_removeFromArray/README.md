@@ -12,5 +12,8 @@ The first test on this one is fairly easy, but there are a few things to think a
 
 - how to remove a single element from an array
 - how to deal with multiple optional arguments in a javascript function
-- [Check this link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments).  Scroll down to the bit about `Array.from` or the spread operator. - [Or this link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
-  
+- [Check this link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functconst removeFromArray = function (arr, remove) {
+  return arr.filter((arr) => arr !== remove);
+  };
+  console.log(removeFromArray(['cat', 'dog', 'rabbit', 'horse'], 'rabbit'));
+  ions/arguments). Scroll down to the bit about `Array.from` or the spread operator. - [Or this link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
